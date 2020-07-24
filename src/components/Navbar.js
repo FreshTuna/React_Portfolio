@@ -24,10 +24,10 @@ class Navbar extends Component {
                 <li><Link
                     className='link'
                     activeClass="active"
-                    to="about"
+                    to="about-main"
                     spy={true}
                     smooth={true}
-                    offset={120}
+                    offset={70}
                     duration={500}
                 >
                     <a>About</a>

@@ -4,7 +4,7 @@ import data from '../data'
 class About extends Component {
     state = {  }
     render(){
-        return(<div className="about">
+        return(<div className="about-main">
             {data.ShowAboutImage ? <img src={data.aboutImage} alt="about image"></img> : null}
             <div className='about-content'>
 
