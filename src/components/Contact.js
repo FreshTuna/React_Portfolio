@@ -5,7 +5,7 @@ import data from '../data';
 class Contact extends Component {
     state = {}
     render() {
-        return(<div className='Contact'>
+        return(<div className='Contact' >
             <h1>CONTACT</h1>
             <div className='contact-content'>
                 <div className='Gmail'>
