@@ -69,12 +69,19 @@ li .link:hover{
 .header{
   position: absolute;
   width: 100%
-
 }
 .header img{
   width: 75%;
   margin-left: 19%;
 }
+
+@media screen and (min-width: 1800px) {
+  .header img {
+    width: 76%;
+    margin-left: 19%;
+  }
+}
+
 .bottomright{
   position: absolute;
   bottom: 0.5em;
@@ -88,9 +95,22 @@ li .link:hover{
   flex-direction: row;
   padding-top: 5em;
   position: relative;
-  left: 6em;
+  left:10%;
   width: 100%;
 }
+
+@media screen and (min-width: 1500px) {
+  .about-main{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5em;
+    position: relative;
+    left:10%;
+    width: 90%;
+  }
+  
+}
+
 .about img{
   width: 28%;
 }
