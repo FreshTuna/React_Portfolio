@@ -11,7 +11,10 @@ export default {
     ],
 
     aboutImage:'https://images.unsplash.com/photo-1573134005528-db6a82e51995?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=582&q=80',
-
+    homeIcon:"https://mir-s3-cdn-cf.behance.net/project_modules/disp/7bf92c101264049.5f1ab4970ae14.png",
+    projectIcon:"https://mir-s3-cdn-cf.behance.net/project_modules/disp/5697a7101264049.5f1ab40f60f8b.png",
+    aboutIcon:"https://mir-s3-cdn-cf.behance.net/project_modules/disp/410427101264049.5f1ab4970b343.png",
+    contactIcon:"https://mir-s3-cdn-cf.behance.net/project_modules/disp/f4d693101264049.5f1ab4970b75e.png",
     projects:[
         {
             id:1,

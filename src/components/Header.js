@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import data from '../data'
+import Fade from 'react-reveal'
 
 class Header extends Component {
     state = {
@@ -7,9 +8,9 @@ class Header extends Component {
     }
     render() {
         return(<div className='header'>
-                <h1 className='header-title'>{data.title}</h1>
+                <Fade right><h1 className='header-title'>{data.title}</h1></Fade>
                 {data.ShowAboutImage ? <img src={data.headerImage} alt="about image"></img> : null}
-                <div className='bottomright'>"  {data.name}  "</div>
+                <Fade right><div className='bottomright'>"  {data.name}  "</div></Fade>
             </div>
         );
     }

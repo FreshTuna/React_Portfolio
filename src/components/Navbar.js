@@ -19,7 +19,7 @@ class Navbar extends Component {
                     offset={-70}
                     duration={500}
                     onClick={this.scrollToTop}
-                >Home</Link></li>
+                ><img src={data.homeIcon}></img></Link></li>
                 {'\u00A0'}{'\u00A0'}{'\u00A0'}
                 <li><Link
                     className='link'
@@ -30,7 +30,7 @@ class Navbar extends Component {
                     offset={70}
                     duration={500}
                 >
-                    <a>About</a>
+                <img src={data.aboutIcon}></img>
                 </Link></li>
                 {'\u00A0'}{'\u00A0'}{'\u00A0'}
                 <li><Link
@@ -41,7 +41,7 @@ class Navbar extends Component {
                     smooth={true}
                     offset={-20}
                     duration={500}
-                >Work</Link></li>
+                ><img src={data.projectIcon}></img></Link></li>
                 {'\u00A0'}{'\u00A0'}
                 <li><Link
                     className='link'
@@ -51,7 +51,7 @@ class Navbar extends Component {
                     smooth={true}
                     offset={0}
                     duration={500}
-                >Contact</Link></li>
+                ><img src={data.contactIcon}></img></Link></li>
             </ul>
             
         </nav>);

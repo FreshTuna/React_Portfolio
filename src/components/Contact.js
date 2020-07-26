@@ -5,7 +5,7 @@ import data from '../data';
 class Contact extends Component {
     state = {}
     render() {
-        return(<div className='Contact' >
+        return(<Fade bottom><div className='Contact'>
             <h1>CONTACT</h1>
             <div className='contact-content'>
                 <div className='Gmail'>
@@ -27,7 +27,7 @@ class Contact extends Component {
                     </a>
                 </div>
             </div>
-        </div>);
+        </div></Fade>);
     }
 }
 

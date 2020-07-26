@@ -27,7 +27,7 @@ body{
 
 nav{
   position: fixed;
-  left:60em;
+  left:70%;
   top:2em;
   z-index: 100;
 }
@@ -39,7 +39,8 @@ nav li{
   
 }
 nav li img{
-  margin-left: -0.3em;
+  width: 2.2em;
+  height: 1.9em;
 }
 
 
@@ -47,7 +48,7 @@ nav li .link{
   text-decoration: none;
   color: black;
   padding: 1em;
-  opacity: 0.5;
+  opacity: 0.6;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -113,12 +114,57 @@ li .link:hover{
 
 .about img{
   width: 28%;
+  
+}
+.about img:hover{
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 .about-content{
   margin-top: -1.8em;
   margin-left: 6em;
   width: 37em;
+}
+
+.caption{
+  position: relative;
+}
+
+.caption:hover{
+  -webkit-filter: sepia(90%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.caption img{
+  height: 4em;
+}
+.caption .text{
+  position: absolute;
+  font-size: 0.5em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -200%);
+  z-index: 10;
+  opacity: 0;
+  transition: all 0.8s ease;   
+}
+
+.text h1{
+  margin:0;
+  color:white;
+}
+
+.caption:hover .text{
+  opacity: 1;
 }
 
 .icons{
