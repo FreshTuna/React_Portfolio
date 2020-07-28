@@ -26,9 +26,11 @@ class About extends Component {
 
                 <h1>INTRODCUTION</h1>
                 <h2>{data.introduction[0]}</h2>
-                <p>{data.introduction[1]}</p>
-                <br></br><br></br><br></br>
-                <p>{data.introduction[2]}</p>
+                <h3>{data.introduction[1]}</h3>
+                <br></br><br></br>
+                <p>{'\u00A0'}{data.introduction[2]}</p>
+                <br></br>
+                <p>{'\u00A0'}{data.introduction[3]}</p>
                 <div className='icons'>
                     <HoverBtn imageSRC={data.circleIcon1}></HoverBtn>
                     <HoverBtn imageSRC={data.circleIcon1}></HoverBtn>

@@ -131,6 +131,12 @@ li .link:hover{
   margin-left: 6em;
   width: 37em;
 }
+.about-content h2{
+  font-size: 2em;
+}
+.about-content p{
+  font-size: 1.3em;
+}
 
 .caption{
   position: relative;
@@ -178,7 +184,7 @@ li .link:hover{
 
 .icons{
   position: absolute;
-  bottom: 0em;
+  bottom: 3em;
   display:grid;
   grid-template-columns: repeat(7,1fr);
   grid-gap: 1.5em;
@@ -217,13 +223,36 @@ li .link:hover{
 .project figure{
   margin:0 auto;
   align-items: center;
-  width: 15em;
+  width: 19em;
   height: 22em;
   overflow: hidden;
 }
+
+.project figure figcaption{
+  letter-spacing: 1px;
+  font-size: 2em;
+}
+
+.project figure p{
+  margin: 1em 0 0;
+  padding: 0em;
+  border: 1px solid #fff;
+  opacity: 1;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,20px,0) scale(1.1);
+  transform: translate3d(0,20px,0) scale(1.1);
+} 
+
+.project figure:hover p{
+  opacity: 1;
+  -webkit-transform: translate3d(0,-10em,0) scale(1);
+  transform: translate3d(0,-10em,0) scale(1);
+}
+
 .project img{
-  width: 15em;
-  height: 22em;
+  width: 21em;
+  height: 24em;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: .3s ease-in-out;
