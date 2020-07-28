@@ -2,7 +2,7 @@ export default {
     title:'DEVELOPER',
     name:'Jang Jun Young',
     ShowAboutImage:'true',
-    headerImage:'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80',
+    headerImage:'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
     circleIcon1:'https://img.icons8.com/material-sharp/24/000000/filled-circle.png',
     introduction:[
         'My Name is me.',
