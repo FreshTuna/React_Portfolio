@@ -233,7 +233,6 @@ li .link:hover{
   text-align: center;
 }
 .work .work-content{
-  margin: 7em;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-row-gap: 5em;
@@ -243,7 +242,6 @@ li .link:hover{
 
 @media screen and (max-width: 800px) {
   .work .work-content{
-    margin: 7em;
     display: grid;
     grid-template-columns: repeat(1,1fr);
     grid-row-gap: 5em;
