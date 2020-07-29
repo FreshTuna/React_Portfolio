@@ -8,9 +8,9 @@ class Header extends Component {
     }
     render() {
         return(<div className='header'>
-                <Fade right><h1 className='header-title'>{data.title}</h1></Fade>
+                <h1 className='header-title'>{data.title}</h1>
                 {data.ShowAboutImage ? <img src={data.headerImage} alt="about image"></img> : null}
-                <Fade right><div className='bottomright'>"  {data.name}  "</div></Fade>
+                <div className='bottomright'>"  {data.name}  "</div>
             </div>
         );
     }
