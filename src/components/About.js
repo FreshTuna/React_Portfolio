@@ -23,14 +23,15 @@ class About extends Component {
         return(<div className="about-main">
             {data.ShowAboutImage ? <Fade left><img src={data.aboutImage} alt="about image"></img></Fade> : null}
             <Fade bottom><div className='about-content'>
-
-                <h1>INTRODCUTION</h1>
-                <h2>{data.introduction[0]}</h2>
-                <h3>{data.introduction[1]}</h3>
-                <br></br><br></br>
-                <p>{'\u00A0'}{data.introduction[2]}</p>
-                <br></br>
-                <p>{'\u00A0'}{data.introduction[3]}</p>
+                <div className="textDiv">
+                    <h1>INTRODCUTION</h1>
+                    <h2>{data.introduction[0]}</h2>
+                    <h3>{data.introduction[1]}</h3>
+                    <br></br><br></br>
+                    <p>{'\u00A0'}{data.introduction[2]}</p>
+                    <br></br>
+                    <p>{'\u00A0'}{data.introduction[3]}</p>
+                </div>
                 <div className='icons'>
                     <HoverBtn imageSRC={data.pythonLogo}></HoverBtn>
                     <HoverBtn imageSRC={data.cLogo}></HoverBtn>

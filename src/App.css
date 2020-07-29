@@ -64,7 +64,7 @@ li .link:hover{
   margin:0;
   position: absolute;
   font-family: 'HelveticaNeue-Bold',sans-serif;
-  font-size: 6.5em; 
+  font-size: 6.5vw; 
   font-weight: BOLD;
 }
 
@@ -89,7 +89,7 @@ li .link:hover{
   bottom: 0.5em;
   right: 1.3em;
   font-family: 'HelveticaNeue-Bold',sans-serif;
-  font-size: 5em; 
+  font-size: 5vw; 
 }
 
 .about-main{
@@ -98,6 +98,7 @@ li .link:hover{
   padding-top: 5em;
   position: relative;
   left:10%;
+  height: 100vh;
   width: 100%;
 }
 
@@ -129,13 +130,17 @@ li .link:hover{
 .about-content{
   margin-top: -1.8em;
   margin-left: 6em;
-  width: 37em;
+  width: 45%;
 }
 .about-content h2{
   font-size: 2em;
 }
 .about-content p{
   font-size: 1.3em;
+}
+
+.about-content .textDiv{
+  padding-bottom: 15%;
 }
 
 .caption{
@@ -183,15 +188,14 @@ li .link:hover{
 }
 
 .icons{
-  position: absolute;
-  bottom: 3em;
+  position: flex;
   display:grid;
   grid-template-columns: repeat(7,1fr);
   grid-gap: 1.5em;
 }
 
 .icons img{
-  width: 4em;
+  width: 90%;
   opacity: 1;
 }
 
@@ -215,6 +219,17 @@ li .link:hover{
   grid-row-gap: 5em;
   
 }
+
+
+@media screen and (max-width: 800px) {
+  .work .work-content{
+    margin: 7em;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 5em;
+    
+  }
+}  
 
 .project{
   text-align: center;
