@@ -319,7 +319,7 @@ li .link:hover{
 .contact .contact-content{
   padding-top: 5em;
   font-size: 1.5em;
-  margin-left: 6em;
+  margin-left: 6vw;
   font-family: 'Open Sans', sans-serif;
   padding-bottom: 7em;
   vertical-align: middle;
@@ -328,7 +328,9 @@ li .link:hover{
 
 @media screen and (max-width: 800px) {
   .contact .contact-content{
+    
     padding-top: 3em;
+    margin-left: 6vw;
     font-size: 1em;
   }
   .contact img{
