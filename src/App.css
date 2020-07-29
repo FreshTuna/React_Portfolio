@@ -220,6 +220,10 @@ li .link:hover{
   text-align: center;
 }
 
+.project a{
+  text-decoration: none;
+  text-align: left;
+}
 .project figure{
   margin:0 auto;
   align-items: center;
@@ -229,15 +233,18 @@ li .link:hover{
 }
 
 .project figure figcaption{
+  outline: none;
   letter-spacing: 1px;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .project figure p{
-  margin: 1em 0 0;
-  padding: 0em;
+  margin: 1em 1em 0;
+  padding: 1em;
   border: 1px solid #fff;
+  color: #fff;
   opacity: 1;
+  text-decoration: none!important;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(0,20px,0) scale(1.1);
@@ -246,8 +253,9 @@ li .link:hover{
 
 .project figure:hover p{
   opacity: 1;
-  -webkit-transform: translate3d(0,-10em,0) scale(1);
-  transform: translate3d(0,-10em,0) scale(1);
+  text-decoration: none!important;
+  -webkit-transform: translate3d(0,-15em,0) scale(1);
+  transform: translate3d(0,-15em,0) scale(1);
 }
 
 .project img{
@@ -259,7 +267,8 @@ li .link:hover{
   transition: .3s ease-in-out;
 }
 
-.project img:hover{
+.project figure:hover img{
+  -webkit-filter: brightness(60%);
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }

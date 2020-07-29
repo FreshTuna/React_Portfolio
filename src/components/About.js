@@ -32,13 +32,14 @@ class About extends Component {
                 <br></br>
                 <p>{'\u00A0'}{data.introduction[3]}</p>
                 <div className='icons'>
-                    <HoverBtn imageSRC={data.circleIcon1}></HoverBtn>
-                    <HoverBtn imageSRC={data.circleIcon1}></HoverBtn>
-                    <HoverBtn imageSRC={data.circleIcon1}></HoverBtn>
-                    <HoverBtn imageSRC={data.circleIcon1}></HoverBtn>
-                    <HoverBtn imageSRC={data.circleIcon1}></HoverBtn>
-                    <HoverBtn imageSRC={data.circleIcon1}></HoverBtn>
-                    <HoverBtn imageSRC={data.circleIcon1}></HoverBtn>
+                    <HoverBtn imageSRC={data.pythonLogo}></HoverBtn>
+                    <HoverBtn imageSRC={data.cLogo}></HoverBtn>
+                    <HoverBtn imageSRC={data.cplusLogo}></HoverBtn>
+                    <HoverBtn imageSRC={data.kerasLogo}></HoverBtn>
+                    <HoverBtn imageSRC={data.javaLogo}></HoverBtn>
+                    <HoverBtn imageSRC={data.djangoLogo}></HoverBtn>
+                    <HoverBtn imageSRC={data.reactLogo}></HoverBtn>
+            
                     
                 </div>
             </div></Fade>

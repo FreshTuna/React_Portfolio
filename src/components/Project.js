@@ -10,7 +10,7 @@ class Project extends Component {
                     <a href={this.props.url}>
                         <figure>
                             <img src={this.props.imageSRC}></img>
-                            <figcaption><p>{this.props.service}</p></figcaption>
+                            <figcaption><p>{this.props.readme}</p></figcaption>
                         </figure>
                     </a>
                     <h1>{this.props.title}</h1>
