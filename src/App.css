@@ -102,36 +102,41 @@ li .link:hover{
   width: 100%;
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (max-width: 800px) {
   .about-main{
     display: flex;
     flex-direction: row;
-    padding-top: 5em;
+    padding-top: 0em;
     position: relative;
-    left:10%;
-    width: 90%;
+    left: 0%;
+    width: 100%;
+    padding-bottom: 30%;
   }
   
 }
 
 .about img{
   width: 28%;
-  
 }
-.about img:hover{
-    -webkit-filter: brightness(70%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-}
+
+@media screen and (max-width: 800px) {
+  .about img{
+    width:0%;
+  }
+}  
 
 .about-content{
   margin-top: -1.8em;
   margin-left: 6em;
   width: 45%;
 }
+
+@media screen and (max-width: 800px) {
+  .about-content{
+    margin: 0 auto;
+    width: 80%;
+  }
+}  
 .about-content h2{
   font-size: 2em;
 }
@@ -198,6 +203,15 @@ li .link:hover{
   width: 90%;
   opacity: 1;
 }
+
+@media screen and (max-width: 800px) {
+  .icons{
+    position: flex;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1.5em;
+  }
+}  
 
 .icons img:hover{
   opacity: 0.7;
@@ -305,6 +319,16 @@ li .link:hover{
   font-family: 'Open Sans', sans-serif;
   padding-bottom: 7em;
 }
+
+
+@media screen and (max-width: 800px) {
+  .contact .contact-content{
+    padding-top: 3em;
+    font-size: 1em;
+
+  }
+}  
+
 
 
 .email{
