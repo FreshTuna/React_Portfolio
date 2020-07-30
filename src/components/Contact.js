@@ -11,19 +11,19 @@ class Contact extends Component {
                 <div className='Gmail'>
                     <a href={`mailto:${data.Email}`} className='email'>
                         
-                        <p><img src={data.circleIcon1}></img>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{data.Email}</p>
+                        <p><img src={data.mailLogo}></img>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{data.Email}</p>
                     </a>
                 </div>
                 <div className='instagram'>
                     <a href={`mailto:${data.Instragram}`} className='email'>
                         
-                        <p><img src={data.circleIcon1}></img>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{data.Instagram}</p>
+                        <p><img src={data.instagramLogo}></img>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{data.Instagram}</p>
                     </a>
                 </div>
                 <div className='site'>
                     <a href={`mailto:${data.Site}`} className='email'>
                         
-                        <p><img src={data.circleIcon1}></img>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{data.Site}</p>
+                        <span><img src={data.githubLogo}></img>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{data.Site}</span>
                     </a>
                 </div>
             </div>
