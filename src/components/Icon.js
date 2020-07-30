@@ -26,7 +26,7 @@ class HoverBtn extends Component {
           onMouseLeave={this.handleMouseHover}
         > 
         <div href = "#" className = "caption">
-          <span class = "text"><h1>Basic</h1></span>
+        <span class = "text"><h1>{this.props.level}</h1></span>
           <img src = {this.props.imageSRC}></img>
         </div>
 
