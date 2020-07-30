@@ -179,8 +179,7 @@ li .link:hover{
 }
 
 .caption{
-  width: 4.5em;
-  height: 4.5em;
+  width: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
