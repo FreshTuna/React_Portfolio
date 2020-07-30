@@ -110,6 +110,11 @@ li .link:hover{
   width: 100%;
 }
 
+.about-main a{
+  text-decoration: none;
+  color: black;
+}
+
 @media screen and (max-width: 800px) {
   .about-main{
     display: flex;

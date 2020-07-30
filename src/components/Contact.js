@@ -21,7 +21,7 @@ class Contact extends Component {
                     </a>
                 </div>
                 <div className='site'>
-                    <a href={`mailto:${data.Site}`} className='email'>
+                    <a href={data.Site} className='email'>
                         
                         <span><img src={data.githubLogo}></img>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{data.Site}</span>
                     </a>
