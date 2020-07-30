@@ -231,7 +231,12 @@ li .link:hover{
     position: flex;
     display:grid;
     grid-template-columns: repeat(4,1fr);
-    grid-gap: 1.5em;
+    grid-gap: 2em;
+    align-items: center;
+  }
+  .icons{
+    width: 4.5em;
+    height: 4.5em;
   }
 }  
 
