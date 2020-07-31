@@ -26,7 +26,7 @@ body{
 
 nav{
   position: fixed;
-  left:70%;
+  left:72%;
   top:2em;
   z-index: 100;
 }
@@ -35,12 +35,28 @@ nav{
 nav li{
   display: inline-block;
   cursor: pointer;
-  
+  padding-left: 0.3em;
 }
+
 nav li img{
   width: 2.2em;
   height: 1.9em;
 }
+
+@media screen and (max-width: 800px) {
+  nav li img{
+    width: 2em;
+    height: 1.7em;
+  }
+  nav li{
+    padding-top : 0.5em;
+  }
+  
+  nav{
+    top:0em;
+  }
+}
+
 
 
 nav li .link{

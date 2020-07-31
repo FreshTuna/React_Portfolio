@@ -1,6 +1,6 @@
 import React,{ Components } from 'react';
 import './App.css';
-
+import Hamburger from 'react-hamburgers';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
