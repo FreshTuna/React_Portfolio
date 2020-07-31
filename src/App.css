@@ -44,18 +44,31 @@ nav li img{
 }
 
 @media screen and (max-width: 800px) {
+  ul{
+    padding-inline-start: 20px;
+  }
   nav li img{
     width: 2em;
     height: 1.7em;
   }
   nav li{
     padding-top : 0em;
+    padding-left: 0em;
   }
-  
+  nav .burger{
+    opacity: 0.6;
+  }
+  nav .burger:hover{
+    opacity: 1;
+  }
+  nav .burger:focus{
+    outline: none;
+  }
   nav{
     left : 0%;
     top:0em;
   }
+
 }
 
 
@@ -104,6 +117,9 @@ li .link:hover{
   }
   .App-header {
     padding-left:0em;
+  }
+  .header h1{
+    opacity: 0;
   }
 }
 

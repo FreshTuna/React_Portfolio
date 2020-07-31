@@ -36,7 +36,7 @@ class Navbar extends Component {
             <ul>
                 <MediaQuery maxWidth={800} >
                 <li>
-                    <HamburgerSlider isActive={this.state.isActive} toggleButton={this.toggleButton} barColor="black"/>
+                    <HamburgerSlider className="burger" isActive={this.state.isActive} toggleButton={this.toggleButton} barColor="black"/>
                         {this.state.isActive ? <li><li><Link
                     className='link'
                     activateClass="active"s
