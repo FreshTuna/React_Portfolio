@@ -37,7 +37,7 @@ class Navbar extends Component {
                 <MediaQuery maxWidth={800} >
                 <li>
                     <HamburgerSlider isActive={this.state.isActive} toggleButton={this.toggleButton} barColor="black"/>
-                        {this.state.isActive ? <div><li><Link
+                        {this.state.isActive ? <li><li><Link
                     className='link'
                     activateClass="active"s
                     to="home"
@@ -53,7 +53,7 @@ class Navbar extends Component {
                     to="about-main"
                     spy={true}
                     smooth={true}
-                    offset={70}
+                    offset={-60}
                     duration={500}
                 >
                 <img src={data.aboutIcon}></img></Link></li>
@@ -63,7 +63,7 @@ class Navbar extends Component {
                     to="heading"
                     spy={true}
                     smooth={true}
-                    offset={-20}
+                    offset={-75}
                     duration={500}
                 ><img src={data.projectIcon}></img></Link></li>
                 <li><Link
@@ -75,7 +75,7 @@ class Navbar extends Component {
                     offset={0}
                     duration={500}
                 ><img src={data.contactIcon}></img></Link></li>
-                </div>
+                </li>
                 
                 
                 

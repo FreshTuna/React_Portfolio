@@ -49,10 +49,11 @@ nav li img{
     height: 1.7em;
   }
   nav li{
-    padding-top : 0.5em;
+    padding-top : 0em;
   }
   
   nav{
+    left : 0%;
     top:0em;
   }
 }
@@ -98,7 +99,7 @@ li .link:hover{
 @media screen and (max-width: 800px) {
   .header img {
     width: 100%;
-    min-height: 40em;
+    height: 46em;
     margin-left:0;
   }
   .App-header {
@@ -375,10 +376,10 @@ li .link:hover{
 
 @media screen and (max-width: 800px) {
   .contact .contact-content{
-    
-    padding-top: 3em;
+    padding-top: 3.7em;
     margin-left: 6vw;
     font-size: 1em;
+    padding-bottom: 20em;
   }
   .contact img{
     width: 5%;
