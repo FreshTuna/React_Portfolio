@@ -45,7 +45,11 @@ nav li img{
 
 @media screen and (max-width: 800px) {
   ul{
-    padding-inline-start: 20px;
+    margin-left: 1em;
+    padding-inline-start: 0px;
+    border: solid 1px #cecece;
+    border-radius: 0.5em;
+    background-color: rgba(193,193,193,.3)
   }
   nav li img{
     width: 2em;
@@ -55,6 +59,7 @@ nav li img{
     padding-top : 0em;
     padding-left: 0em;
   }
+
   nav .burger{
     opacity: 0.6;
   }
