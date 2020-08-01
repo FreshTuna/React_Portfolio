@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
 
+input,
+textarea,
+button,
+select,
+a,
+div,
+nav,
+li,
+p,
+img {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 body{
   font-size: 16px;
   background: white;
@@ -56,11 +69,13 @@ nav li img{
   nav li img{
     width: 1.7em;
     height: 1.4em;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   }
   nav li{
     padding-top : 0em;
     padding-left: 0em;
     outline:none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   }
 
   nav .burger{
@@ -78,6 +93,7 @@ nav li img{
     left: 0px;
     top: 85%;
     outline: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   }
 
 }
