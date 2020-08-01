@@ -20,8 +20,9 @@ class Navbar extends Component {
     }
     
     render() { 
+        var navStyle;
         const activate=this.state.isActive;
-
+        activate ? navStyle={left:"15%"} : navStyle={};
 
         let button;
         if(activate){
@@ -32,12 +33,11 @@ class Navbar extends Component {
         }
 
         return (
-        <nav>
+        <nav style={navStyle}>
             <ul>
                 <MediaQuery maxWidth={800} >
                 <li>
-                    <HamburgerSlider className="burger" isActive={this.state.isActive} toggleButton={this.toggleButton} barColor="black"/>
-                        {this.state.isActive ? <li><li><Link
+                {this.state.isActive ? <li><li><Link
                     className='link'
                     activateClass="active"s
                     to="home"
@@ -53,17 +53,23 @@ class Navbar extends Component {
                     to="about-main"
                     spy={true}
                     smooth={true}
-                    offset={-60}
+                    offset={10}
                     duration={500}
                 >
-                <img src={data.aboutIcon}></img></Link></li>
+                <img src={data.aboutIcon}></img></Link></li></li>
+
+
+                : null}
+                        
+                    <HamburgerSlider className="burger" isActive={this.state.isActive} toggleButton={this.toggleButton} barColor="black"/>
+                        {this.state.isActive ? <li>
                 <li><Link
                     className='link'
                     activeClass="active"
                     to="heading"
                     spy={true}
                     smooth={true}
-                    offset={-75}
+                    offset={0}
                     duration={500}
                 ><img src={data.projectIcon}></img></Link></li>
                 <li><Link
@@ -76,8 +82,6 @@ class Navbar extends Component {
                     duration={500}
                 ><img src={data.contactIcon}></img></Link></li>
                 </li>
-                
-                
                 
                 
                 : null}
