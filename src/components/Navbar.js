@@ -22,7 +22,7 @@ class Navbar extends Component {
     render() { 
         var navStyle;
         const activate=this.state.isActive;
-        activate ? navStyle={left:"12%"} : navStyle={};
+        activate ? navStyle={} : navStyle={};
 
         let button;
         if(activate){
