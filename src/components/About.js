@@ -27,7 +27,7 @@ class About extends Component {
                     <h1>INTROD<a href="https://filmschoolrejects.com/wp-content/uploads/2019/08/itsatrap-2-1280x720.jpg">C</a>UTION</h1>
                     <h2>{data.introduction[0]}</h2>
                     <h3>{data.introduction[1]}</h3>
-                    <br></br><br></br><a href="https://upload3.inven.co.kr/upload/2020/07/29/bbs/i15499684585.jpg">.</a>
+                    <br></br><br></br><a href="https://notagamer.net/wp-content/uploads/2020/07/rEeWe8v-1.jpg">.</a>
                     <p>{'\u00A0'}{data.introduction[2]}</p>
                     <br></br>
                     <p>{'\u00A0'}{data.introduction[3]}</p>

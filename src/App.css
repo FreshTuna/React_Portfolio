@@ -385,6 +385,7 @@ li .link:hover{
   text-align: left;
 }
 .project figure{
+  background-color: #17819c;
   margin:0 auto;
   align-items: center;
   width: 19em;
@@ -428,6 +429,7 @@ li .link:hover{
 }
 
 .project figure:hover img{
+  opacity: 0.8;
   -webkit-filter: brightness(60%);
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
