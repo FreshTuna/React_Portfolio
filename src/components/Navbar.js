@@ -43,7 +43,7 @@ class Navbar extends Component {
                     to="home"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={0}
                     duration={500}
                     onClick={this.scrollToTop}
                 ><img src={data.homeIcon}></img></Link></li>
