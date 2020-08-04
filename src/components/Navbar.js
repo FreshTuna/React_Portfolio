@@ -35,7 +35,7 @@ class Navbar extends Component {
         return (
         <nav style={navStyle}>
             <ul>
-                <MediaQuery maxWidth={800} >
+                <MediaQuery maxWidth={1024} >
                 <li>
                 {this.state.isActive ? <li><li><Link
                     className='link'
@@ -88,7 +88,7 @@ class Navbar extends Component {
                         
                 </li>
                 </MediaQuery>
-                <MediaQuery minWidth={801} >
+                <MediaQuery minWidth={1025} >
                 <li><Link
                     className='link'
                     activateClass="active"s
@@ -106,7 +106,7 @@ class Navbar extends Component {
                     to="about-main"
                     spy={true}
                     smooth={true}
-                    offset={70}
+                    offset={50}
                     duration={500}
                 >
                 <img src={data.aboutIcon}></img>
