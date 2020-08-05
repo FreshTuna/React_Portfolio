@@ -12,7 +12,8 @@ class Namer extends Component {
 
     componentDidMount() {
         let possible ="-+*/|}{[]~:;?/.><=+-_)(*&^%$#@!)}";
-        let title = data.title;
+        let title = this.props.word;
+        var timeAfter = this.props.tik;
         console.log(possible.length);
         var i=0,j;
         let NameRandom = " ";
@@ -32,53 +33,15 @@ class Namer extends Component {
             }, (i+1)*70);
             console.log(title.length,i);
             if(i>title.length)clearInterval(this.timer);
-    }, 100);
-    /*
-        this.timer = setTimeout(()=>{
-        for(i=0; i<title.length+1; i++){
-            this.timer = setTimeout(()=>{
-                NameRandom = title.substr(0,i);
-                for(j=0; j<title.length; j++){
-                        NameRandom+=possible.charAt(Math.floor(Math.random() * possible.length));
-                        console.log(NameRandom); 
-                }
-            this.setState({text:NameRandom});
-            NameRandom=" ";
-            },500);
-        }
-        },1000);
-
-    }
-
+    }, timeAfter);
     
-    */
    }
-
-    handleOnClick = () => {
-        console.log("Print some text");
-    }
-      
-      
-
-    
-    changeText = (a,possible) => {
-        let Name = ' '
-        for( var i=a; i < 10; i++ ) {
-              Name = Name + possible[i];
-              this.setState({
-                  text:Name,
-              })
-        }
-        return Name;
-    }
-
-    
-    
+ 
 
     render() {
 
         return(   
-            <h1 onClick={this.hand} className='header-title'>{this.state.text}</h1>
+            <div onClick={this.hand} className={this.props.classname}>{this.state.text}</div>
         );
     }
 }

@@ -12,14 +12,19 @@ class Header extends Component {
         return(<div className='header'>
             
                 <a className="header-mark">.</a>
-                <Namer></Namer>
+                <Namer word={data.title} tik={100} classname="header-title"></Namer>
                 <MediaQuery maxWidth={800}>
                     {data.ShowAboutImage ? <img src={data.headerImage2} alt="about image"></img> : null}
                 </MediaQuery>
                 <MediaQuery minWidth={801}>
                     {data.ShowAboutImage ? <img src={data.headerImage} alt="about image"></img> : null}
                 </MediaQuery>
-                <div className='bottomright'>"  {data.name}  "</div>
+                <MediaQuery maxWidth={800}>
+                    <Namer word={data.name} tik={900} classname="bottomright"></Namer>
+                </MediaQuery>
+                <MediaQuery minWidth={801}>
+                    <div className='bottomright'>"  {data.name}  "</div>
+                </MediaQuery>
             </div>
         
         );

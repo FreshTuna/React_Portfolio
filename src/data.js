@@ -3,7 +3,7 @@ export default {
     name:'Jang Jun Young',
     ShowAboutImage:'true',
     headerImage:'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
-    headerImage2:'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/99d668101854373.5f291ee1c295b.png',
+    headerImage2:'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a836ce101915095.5f2a5e203c5b7.png',
     circleIcon1:'https://img.icons8.com/material-sharp/24/000000/filled-circle.png',
     githubLogo: 'https://www.vhv.rs/file/max/36/362967_github-icon-png.png',
     mailLogo: 'https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/mail-512.png',
