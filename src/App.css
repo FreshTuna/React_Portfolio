@@ -131,6 +131,11 @@ li .link:hover{
   font-weight: BOLD;
 }
 
+.header .header-mark{
+  opacity: 0;
+  position: absolute;
+}
+
 .header{
   position: absolute;
   height: 100%;
@@ -157,14 +162,15 @@ li .link:hover{
     margin-left:0;
   }
   .App-header {
-    height: 45em;
+    height: 50em;
     padding-left: 0em;
   }
   .header .header-title{
+    color: rgba(255, 255, 255, 0.8);
     padding-left: 0px;
     width: 100%;
     text-align: center;
-    bottom: 50%;
+    bottom: 60%;
     font-size: 10vw; 
     opacity: 1;
   }

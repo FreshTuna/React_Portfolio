@@ -10,6 +10,8 @@ class Header extends Component {
     }
     render() {
         return(<div className='header'>
+            
+                <a className="header-mark">.</a>
                 <Namer></Namer>
                 <MediaQuery maxWidth={800}>
                     {data.ShowAboutImage ? <img src={data.headerImage2} alt="about image"></img> : null}
@@ -19,6 +21,7 @@ class Header extends Component {
                 </MediaQuery>
                 <div className='bottomright'>"  {data.name}  "</div>
             </div>
+        
         );
     }
 }
