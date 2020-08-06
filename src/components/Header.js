@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import data from '../data';
 import Fade from 'react-reveal';
 import MediaQuery from 'react-responsive';
-import Namer from './Namer'
+import Namer from './Namer';
+import Icon from './BoxSVG';
 class Header extends Component {
 
     state = {
@@ -10,7 +11,6 @@ class Header extends Component {
     }
     render() {
         return(<div className='header'>
-            
                 <a className="header-mark">.</a>
                 <Namer word={data.title} tik={100} classname="header-title"></Namer>
                 <MediaQuery maxWidth={800}>
