@@ -3,7 +3,8 @@ import data from '../data';
 import Fade from 'react-reveal';
 import MediaQuery from 'react-responsive';
 import Namer from './Namer';
-import Icon from './BoxSVG';
+import Box from './boxImage';
+
 class Header extends Component {
 
     state = {
@@ -11,17 +12,21 @@ class Header extends Component {
     }
     render() {
         return(<div className='header'>
+                
                 <a className="header-mark">.</a>
+                <MediaQuery maxWidth={800}><img src={data.whiteBox} className="white-box"></img></MediaQuery>
                 <Namer word={data.title} tik={100} classname="header-title"></Namer>
                 <MediaQuery maxWidth={800}>
-                    {data.ShowAboutImage ? <img src={data.headerImage2} alt="about image"></img> : null}
+                <Namer word={data.name} tik={900} classname="bottomright"></Namer>
+                </MediaQuery>
+                
+                <MediaQuery maxWidth={800}>
+                    {data.ShowAboutImage ? <img src={data.headerImage2} className="header-img" alt="about image"></img> : null}
                 </MediaQuery>
                 <MediaQuery minWidth={801}>
-                    {data.ShowAboutImage ? <img src={data.headerImage} alt="about image"></img> : null}
+                    {data.ShowAboutImage ? <img src={data.headerImage} className="header-img"  alt="about image"></img> : null}
                 </MediaQuery>
-                <MediaQuery maxWidth={800}>
-                    <Namer word={data.name} tik={900} classname="bottomright"></Namer>
-                </MediaQuery>
+                
                 <MediaQuery minWidth={801}>
                     <div className='bottomright'>"  {data.name}  "</div>
                 </MediaQuery>
