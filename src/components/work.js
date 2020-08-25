@@ -7,7 +7,7 @@ class Work extends Component {
     state = { }
     render() {
         return(<div className='work'>
-            <h1 className='heading'><Fade bottom cascade>WORKS</Fade></h1>
+            <h1 className='heading'><Fade bottom cascade delay={500}>WORKS</Fade></h1>
             <div className='work-content'>
                 {data.projects.map((project)=>(
                     <Project    key={project.id}

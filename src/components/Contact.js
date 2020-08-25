@@ -1,31 +1,14 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import data from '../data';
-
+import Contact_inside from './Contact_inside'
 class Contact extends Component {
     state = {}
     render() {
-        return(<Fade bottom><div className='Contact'>
+        return(<Fade duration={650} delay={500}><div className='Contact'>
             <h1>CONTACT</h1>
             <div className='contact-content'>
-                <div className='Gmail'>
-                    <a href={`mailto:${data.Email}`} className='email'>
-                        
-                        <p><img src={data.mailLogo}></img>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{data.Email}</p>
-                    </a>
-                </div>
-                <div className='instagram'>
-                    <a href={`mailto:${data.Instragram}`} className='email'>
-                        
-                        <p><img src={data.instagramLogo}></img>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{data.Instagram}</p>
-                    </a>
-                </div>
-                <div className='site'>
-                    <a href={data.Site} className='email'>
-                        
-                        <span><img src={data.githubLogo}></img>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{data.Site}</span>
-                    </a>
-                </div>
+                <Contact_inside></Contact_inside>
             </div>
         </div></Fade>);
     }
