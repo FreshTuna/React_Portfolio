@@ -14,7 +14,6 @@ class Header extends Component {
         return(<div className='header'>
                 
                 <a className="header-mark">.</a>
-                <MediaQuery maxWidth={800}><img src={data.whiteBox} className="white-box"></img></MediaQuery>
                 <Namer word={data.title} tik={100} classname="header-title"></Namer>
                 <MediaQuery maxWidth={800}>
                 <Namer word={data.name} tik={900} classname="bottomright"></Namer>
