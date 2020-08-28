@@ -373,6 +373,7 @@ li .link:hover{
 .Work{
   height: 100%;
   padding-top: 6%;
+  background-color: ;
 }
 .work{
   position: relative;
@@ -381,13 +382,20 @@ li .link:hover{
 .work .heading{
   font-size: 5em;
   text-align: center;
+  background-color: #c8d0db;
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.work svg{
+  top: 1px;
 }
 .work .work-content{
   padding-top: 3%;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-row-gap: 5em;
-  
+  background-color: #c8d0db;
 }
 
 

@@ -12,7 +12,7 @@ class About extends Component {
     render(){
         return(<div className="about-main">
             <AboutImage></AboutImage>
-            <Fade bottom><div className='about-content'>
+            <Fade right><div className='about-content'>
                 <div className="textDiv">
                     <h1>INTROD<a href="https://filmschoolrejects.com/wp-content/uploads/2019/08/itsatrap-2-1280x720.jpg">C</a>UTION</h1>
                     <h2>{data.introduction[0]}</h2>
