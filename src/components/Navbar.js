@@ -8,7 +8,8 @@ class Navbar extends Component {
 
 
     state = { 
-        isActivate: false
+        isActivate: false,
+        navbarActivate : true,
      }
     scrollToTop = () =>{
         scroll.scrollToTop();
@@ -19,10 +20,27 @@ class Navbar extends Component {
         })
     }
     
+
+    componentDidMount(){
+        this.timer = setInterval(() => {
+            if(window.scrollY>700){
+                this.setState({navbarActivate:false});
+                
+            }
+            else{
+                this.setState({navbarActivate:true});
+            
+            }
+        },300)
+    }
+    
     render() { 
-        var navStyle;
+        const navStyle = {
+            filter: 'brightness(0) invert(1)',
+        };
         const activate=this.state.isActive;
-        activate ? navStyle={} : navStyle={};
+        
+
 
         let button;
         if(activate){
@@ -33,7 +51,7 @@ class Navbar extends Component {
         }
 
         return (
-        <nav style={navStyle}>
+        <nav style={this.state.navbarActivate ? navStyle : null}>
             <ul>
                 <MediaQuery maxWidth={1024} >
                 <li>
