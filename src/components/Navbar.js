@@ -23,15 +23,17 @@ class Navbar extends Component {
 
     componentDidMount(){
         this.timer = setInterval(() => {
-            if(window.scrollY>700){
+            if(window.innerWidth<800){
+                this.setState({navbarActivate:false});
+            }
+            else if(window.scrollY>680){
                 this.setState({navbarActivate:false});
                 
             }
             else{
                 this.setState({navbarActivate:true});
-            
             }
-        },300)
+        },200)
     }
     
     render() { 
@@ -53,7 +55,7 @@ class Navbar extends Component {
         return (
         <nav style={this.state.navbarActivate ? navStyle : null}>
             <ul>
-                <MediaQuery maxWidth={1024} >
+                <MediaQuery maxWidth={1024}>
                 <li>
                 {this.state.isActive ? <li><li><Link
                     className='link'
