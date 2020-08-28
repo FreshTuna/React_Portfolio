@@ -106,7 +106,7 @@ class Navbar extends Component {
                     to="about-main"
                     spy={true}
                     smooth={true}
-                    offset={50}
+                    offset={100}
                     duration={500}
                 >
                 <img src={data.aboutIcon}></img>
@@ -118,7 +118,7 @@ class Navbar extends Component {
                     to="heading"
                     spy={true}
                     smooth={true}
-                    offset={-20}
+                    offset={80}
                     duration={500}
                 ><img src={data.projectIcon}></img></Link></li>
                 {'\u00A0'}{'\u00A0'}

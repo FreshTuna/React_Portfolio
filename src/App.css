@@ -128,6 +128,7 @@ li .link:hover{
   font-family: 'HelveticaNeue-Bold',sans-serif;
   font-size: 6.5vw; 
   font-weight: BOLD;
+
 }
 
 .header .header-mark{
@@ -139,12 +140,14 @@ li .link:hover{
   position: absolute;
   height: 100%;
   width: 100%;
+  color: white;
 }
 
 
 .header .header-img{
   height: 100%;
-  float:right;
+  width: 100%;
+  
   z-index: 10;
 }
 .bottomright{
@@ -210,7 +213,7 @@ li .link:hover{
   display: flex;
   margin: 0 auto;
   flex-direction: row;
-  padding-top: 5em;
+  padding-top: 8em;
   position: relative;
   
   width: 80%;

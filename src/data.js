@@ -2,7 +2,7 @@ export default {
     title:'DEVELOPER',
     name:'Jang Jun Young',
     ShowAboutImage:'true',
-    headerImage:'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
+    headerImage:'https://mir-s3-cdn-cf.behance.net/project_modules/1400/cb8069103248557.5f48bfbe3c38e.png',
     headerImage2:'https://mir-s3-cdn-cf.behance.net/project_modules/disp/f1d220103047221.5f44aeaf730d1.png',
     whiteBox:'https://mir-s3-cdn-cf.behance.net/project_modules/disp/b85b7a102087613.5f312c164e8aa.png',
     circleIcon1:'https://img.icons8.com/material-sharp/24/000000/filled-circle.png',
