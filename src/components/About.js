@@ -2,28 +2,16 @@ import React, { Component } from 'react'
 import HoverBtn from './Icon'
 import data from '../data'
 import Fade from 'react-reveal'
+import AboutImage from './AboutImage'
 
-import Animate from './AnimateClone'
 
 class About extends Component {
     state = { 
     }
-    onMouseEnterHandler = () => {
-        this.setState({
-            hover: true
-        });
-        console.log('enter');
-    }
-    onMouseLeaveHandler = () => {
-        this.setState({
-            hover: false
-        });
-        console.log('leave');
-    }
 
     render(){
         return(<div className="about-main">
-            {data.ShowAboutImage ? <Fade left><img src={data.aboutImage} alt="about image"></img></Fade> : null}
+            <AboutImage></AboutImage>
             <Fade bottom><div className='about-content'>
                 <div className="textDiv">
                     <h1>INTROD<a href="https://filmschoolrejects.com/wp-content/uploads/2019/08/itsatrap-2-1280x720.jpg">C</a>UTION</h1>

@@ -5,7 +5,7 @@ class Project extends Component {
     state = {}
     render() {
         return(
-            <Fade delay={1000} duration={1000}>
+            <Fade delay={700} duration={1000}>
                 <div className='project'>
                     <a href={this.props.url}>
                         <figure>

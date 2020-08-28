@@ -6,7 +6,7 @@ class Contact_inside extends Component {
     state = {}
     render() {
         return(
-            <Fade bottom duration={650} delay={1000}>
+            <Fade bottom duration={650} delay={700}>
             <div>
                 <div className='Gmail'>
                         <a href={`mailto:${data.Email}`} className='email'>

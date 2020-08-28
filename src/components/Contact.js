@@ -5,7 +5,7 @@ import Contact_inside from './Contact_inside'
 class Contact extends Component {
     state = {}
     render() {
-        return(<Fade duration={650} delay={500}><div className='Contact'>
+        return(<Fade duration={650} delay={300}><div className='Contact'>
             <h1>CONTACT</h1>
             <div className='contact-content'>
                 <Contact_inside></Contact_inside>
