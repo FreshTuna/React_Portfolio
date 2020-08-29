@@ -1,6 +1,7 @@
 export default {
     title:'DEVELOPER',
     name:'Jang Jun Young',
+    name2:'Jang Jun Young',
     ShowAboutImage:'true',
     headerImage:'https://mir-s3-cdn-cf.behance.net/project_modules/1400/cb8069103248557.5f48bfbe3c38e.png',
     headerImage2:'https://mir-s3-cdn-cf.behance.net/project_modules/disp/f1d220103047221.5f44aeaf730d1.png',
@@ -25,7 +26,7 @@ export default {
     reactLevel: 'Basic',
 
     introduction:[
-        "안녕하세요 Developer 장준영입니다.",
+        "안녕하세요 Backend Developer 장준영입니다.",
         '꾸준히 노력하는 백엔드 엔지니어 입니다. ',
         ' 개발을 좋아하는 대학교 4학년 학생입니다. 코딩이 좋아 전역 후에 대학교 연구 랩에 들어갔습니다. 대부분의 연구는 Python으로 이루어져 자연스럽게 학부과정에 없던 Python을 익힐 수 있게 되었습니다.',
         '저는 목표가 "꾸준한 개발자"입니다. 많이들 "개발자는 평생 공부해야한다."라 합니다. 누군가는 이 말을 개발자의 단점이라 생각하겠지만 저는 당연하다 생각합니다. 시작은 남들 보다 뒤쳐지더라도 부지런히 공부해서 "꾸준한 개발자"로 남고 싶습니다.'

@@ -123,10 +123,13 @@ li .link:hover{
 
 
 .header .header-title{
-  padding-left: 0.3em;
   margin:0;
   position: absolute;
   font-family: 'HelveticaNeue-Bold',sans-serif;
+  text-align: center;
+  width: 100%;
+  bottom: 50%;
+  right: 13%;
   font-size: 6.5vw; 
   font-weight: BOLD;
 
@@ -154,10 +157,14 @@ li .link:hover{
 
 .bottomright{
   position: absolute;
-  bottom: 0.5em;
-  right: 0.3em;
+  width: 100%;
+  text-align: center;
+  bottom: 42%;
+  right: 13%;
   font-family: 'HelveticaNeue-Bold',sans-serif;
-  font-size: 5vw; 
+  font-size: 4.5vw; 
+  word-spacing: 2vw;
+
 }
 
 
@@ -270,6 +277,15 @@ li .link:hover{
 
 .about-content .textDiv{
   padding-bottom: 15%;
+  color : #293448;
+}
+
+.about-content .textDiv h1{
+  font-size : 2.5em;
+}
+
+.about-content .textDiv span{
+  color : #009387;
 }
 
 .caption{
@@ -490,6 +506,7 @@ li .link:hover{
   height: 100%;
   padding-top: 5em;
   position: relative;
+  color :#293448;
 }
 
 .contact h1{
@@ -527,5 +544,5 @@ li .link:hover{
 
 .email{
   text-decoration: none;
-  color: black;
+  color: #293448;
 }

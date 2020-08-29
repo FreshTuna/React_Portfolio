@@ -27,7 +27,7 @@ class Header extends Component {
                 </MediaQuery>
                 
                 <MediaQuery minWidth={801}>
-                    <div className='bottomright'>"  {data.name}  "</div>
+                    <Namer word={data.name2} tik={800} classname="bottomright"></Namer>
                 </MediaQuery>
             </div>
         
