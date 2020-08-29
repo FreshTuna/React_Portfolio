@@ -10,9 +10,9 @@ class AboutContentMobile extends Component{
         return(
             <div className='about-content'>
                 <div className="textDiv">
-                    <Fade duration={650} delay={500}><h1>INTROD<a href="https://filmschoolrejects.com/wp-content/uploads/2019/08/itsatrap-2-1280x720.jpg">C</a>UTION</h1></Fade>
-                    <Fade duration={650} delay={700}><h2>{data.introduction[0]}</h2></Fade>
-                    <Fade delay={840}><h3>{data.introduction[1]}</h3></Fade>
+                    <Fade duration={650} delay={500}><h1>ABOUT ME</h1></Fade>
+                    <Fade duration={650} delay={700}><h2>안녕하세요 Backend Developer <span>장준영</span>입니다.</h2></Fade>
+                    
                     <br></br><br></br>
                     <Fade delay={1100}><p>{'\u00A0'}{data.introduction[2]}</p></Fade>
                     <br></br>
@@ -21,13 +21,13 @@ class AboutContentMobile extends Component{
 
                 <div className='iconContainer'>
                     <div className='icons'>
-                        <Fade bottom delay={1100}><HoverBtn imageSRC={data.pythonLogo} level={data.pythonLevel}></HoverBtn></Fade>
-                        <Fade bottom delay={1100}><HoverBtn imageSRC={data.cLogo} level={data.cLevel}></HoverBtn></Fade>
-                        <Fade bottom delay={1100}><HoverBtn imageSRC={data.cplusLogo} level={data.cplusLevel}></HoverBtn></Fade>
-                        <Fade bottom delay={1100}><HoverBtn imageSRC={data.kerasLogo} level={data.kerasLevel}></HoverBtn></Fade>
-                        <Fade bottom delay={1200}><HoverBtn imageSRC={data.javaLogo} level={data.javaLevel}></HoverBtn></Fade>
-                        <Fade bottom delay={1200}><HoverBtn imageSRC={data.djangoLogo} level={data.djangoLevel}></HoverBtn></Fade>
-                        <Fade bottom delay={1200}><HoverBtn imageSRC={data.reactLogo} level={data.reactLevel}></HoverBtn></Fade>
+                        <Fade bottom delay={500}><HoverBtn imageSRC={data.pythonLogo} level={data.pythonLevel}></HoverBtn></Fade>
+                        <Fade bottom delay={500}><HoverBtn imageSRC={data.cLogo} level={data.cLevel}></HoverBtn></Fade>
+                        <Fade bottom delay={500}><HoverBtn imageSRC={data.cplusLogo} level={data.cplusLevel}></HoverBtn></Fade>
+                        <Fade bottom delay={500}><HoverBtn imageSRC={data.kerasLogo} level={data.kerasLevel}></HoverBtn></Fade>
+                        <Fade bottom delay={700}><HoverBtn imageSRC={data.javaLogo} level={data.javaLevel}></HoverBtn></Fade>
+                        <Fade bottom delay={700}><HoverBtn imageSRC={data.djangoLogo} level={data.djangoLevel}></HoverBtn></Fade>
+                        <Fade bottom delay={700}><HoverBtn imageSRC={data.reactLogo} level={data.reactLevel}></HoverBtn></Fade>
                 
                         
                     </div>
