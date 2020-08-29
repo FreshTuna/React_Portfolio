@@ -146,9 +146,10 @@ li .link:hover{
 .header .header-img{
   height: 100%;
   width: 100%;
-  
   z-index: 10;
 }
+
+
 .bottomright{
   position: absolute;
   bottom: 0.5em;

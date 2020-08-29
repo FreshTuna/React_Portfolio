@@ -27,13 +27,16 @@ class Navbar extends Component {
                 this.setState({navbarActivate:false});
             }
             else if(window.scrollY>680){
-                this.setState({navbarActivate:false});
+                if(window.scrollY>1850 && window.scrollY<2740)
+                    this.setState({navbarActivate:true});
+                else
+                    this.setState({navbarActivate:false});
                 
             }
             else{
                 this.setState({navbarActivate:true});
             }
-        },200)
+        },150)
     }
     
     render() { 
