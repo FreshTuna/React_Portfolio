@@ -3,7 +3,6 @@ import data from '../data';
 import Fade from 'react-reveal';
 import MediaQuery from 'react-responsive';
 import Namer from './Namer';
-import Box from './boxImage';
 
 class Header extends Component {
 

@@ -6,13 +6,17 @@ import Header from './components/Header';
 import About from './components/About';
 import Contact from './components/Contact';
 import Work from './components/work';
+import UnderHeader from './components/UnderHeader';
 function App() {
   return (
     <div className="App">
         <Navbar></Navbar>
         <div className="App-header">
           <Header></Header>
-        </div><div className="about">
+        </div><div className="Under-header">
+          <UnderHeader></UnderHeader>
+        </div>
+        <div className="about">
           <About></About>
         </div>
         <div className="Work">
