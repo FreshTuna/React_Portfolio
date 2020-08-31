@@ -26,8 +26,8 @@ class Navbar extends Component {
             if(window.innerWidth<800){
                 this.setState({navbarActivate:false});
             }
-            else if(window.scrollY>680){
-                if(window.scrollY>1850 && window.scrollY<2740)
+            else if(window.scrollY>770){
+                if(window.scrollY>2100 && window.scrollY<3050)
                     this.setState({navbarActivate:true});
                 else
                     this.setState({navbarActivate:false});
