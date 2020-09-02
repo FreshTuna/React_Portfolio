@@ -66,5 +66,6 @@ export default {
     ],
     Email:'jun17114@gmail.com',
     Instagram: 'TunaJang',
+    linkedIn: 'https://www.linkedin.com/in/jun-young-jang-7101a1186/',
     Site: 'https://github.com/FreshTuna',
 }

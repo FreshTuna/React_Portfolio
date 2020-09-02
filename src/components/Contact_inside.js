@@ -15,7 +15,7 @@ class Contact_inside extends Component {
                         </a>
                     </div>
                     <div className='instagram'>
-                        <a href={`mailto:${data.Instragram}`} className='email'>
+                        <a href={data.linkedIn} className='email'>
                             
                             <p><img src={data.instagramLogo}></img>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{data.Instagram}</p>
                         </a>
