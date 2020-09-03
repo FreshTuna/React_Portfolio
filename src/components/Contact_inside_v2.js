@@ -1,26 +1,36 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import data from '../data';
+import { findAllByDisplayValue } from '@testing-library/react';
 
 class Contact_inside2 extends Component {
     state = {
-        text : "Contact Me"
+        text : "Contact Me",
+        hoverActivate : false,
     }
 
     toggleHover= (props)=> {
         console.log("hoverman");
-        this.setState({text:"Contact Me >>"});
+        this.setState({hoverActivate:!this.state.hoverActivate});
+        
     }
     toggleOut = (props) =>{
         console.log("outman");
-        this.setState({text:"Contact Me"});
+        this.setState({hoverActivate:!this.state.hoverActivate});
     }
 
     render() {
+
+        const EmailStyle ={
+            background: "#293448",
+            transition: "all .6s",
+            color: "white",
+            transform: "scale(1.3)",
+        }
         return(
-            <Fade bottom duration={650} delay={700}>
+            <Fade duration={650} delay={700}>
             <p className="btn-holder">
-                <a href={`mailto:${data.Email}`} className='email' onMouseEnter={this.toggleHover}
+                <a href={`mailto:${data.Email}`} style={this.state.hoverActivate ? EmailStyle: null} className='email' onMouseEnter={this.toggleHover}
                 onMouseLeave={this.toggleOut}>
                     {this.state.text}
                 </a>

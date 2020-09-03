@@ -148,7 +148,7 @@ class Navbar extends Component {
                 <li><Link
                     className='link'
                     activeClass="active"
-                    to="contact"
+                    to="Footer"
                     spy={true}
                     smooth={true}
                     offset={0}

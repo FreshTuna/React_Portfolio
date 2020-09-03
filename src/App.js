@@ -7,6 +7,8 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Work from './components/work';
 import UnderHeader from './components/UnderHeader';
+import Footer from './components/Footer';
+
 function App() {
   return (
     <div className="App">
@@ -24,6 +26,9 @@ function App() {
         </div>
         <div className="contact">
           <Contact></Contact>
+        </div>
+        <div className="Foot">
+          <Footer></Footer>
         </div>
     </div>
   );
