@@ -27,17 +27,34 @@ class Contact_inside2 extends Component {
             color: "white",
             transform: "scale(1.3)",
         }
+
+        const InfoStyle ={
+            "text-align": "center",
+            width: "100%",
+            margin: "0 auto",
+            "font-weight": "600",
+            
+        }
         return(
-            <Fade duration={650} delay={700}>
+        <div>
+            <Fade bottom duration={400} delay={730}>
+
+            <div className="information">
+                <p style={InfoStyle}>Email: {data.Email}</p>
+                <p style={InfoStyle}>{data.Cellphone}</p>
+            </div>
             <p className="btn-holder">
                 <a href={`mailto:${data.Email}`} style={this.state.hoverActivate ? EmailStyle: null} className='email' onMouseEnter={this.toggleHover}
                 onMouseLeave={this.toggleOut}>
                     {this.state.text}
                 </a>
             </p>
+            </Fade>
+            <Fade delay={750}>
             <div className="icon-holder">
                 <ul>
                 <li>
+                    
                 <a href={data.linkedIn}>   
                     <img src={data.instagramLogo}></img>
                 </a>
@@ -48,13 +65,14 @@ class Contact_inside2 extends Component {
                 </a>
                 </li>
                 <li>
-                <a href={`mailto:${data.Email}`}>  
-                    <img src={data.mailLogo}></img>
+                <a href={data.linkedIn}>   
+                    <img src={data.linkedInLogo}></img>
                 </a>
                 </li>
                 </ul>
             </div>
             </Fade>
+        </div>
         );
     }
 }

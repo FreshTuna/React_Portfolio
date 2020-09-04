@@ -45,7 +45,7 @@ body{
 
 nav{
   position: fixed;
-  left:72%;
+  left:60%;
   top:2em;
   z-index: 100;
   -webkit-transition: all 0.5s ease;
@@ -56,7 +56,7 @@ nav{
 nav li{
   display: inline-block;
   cursor: pointer;
-  padding-left: 0.3em;
+  padding-left: 1em;
 }
 
 nav li img{
@@ -128,7 +128,7 @@ li .link:hover{
   font-family: 'HelveticaNeue-Bold',sans-serif;
   text-align: center;
   width: 100%;
-  bottom: 50%;
+  bottom: 55%;
   right: 13%;
   font-size: 6.5vw; 
   font-weight: BOLD;
@@ -159,7 +159,7 @@ li .link:hover{
   position: absolute;
   width: 100%;
   text-align: center;
-  bottom: 42%;
+  bottom: 47%;
   right: 13%;
   font-family: 'HelveticaNeue-Bold',sans-serif;
   font-size: 4.5vw; 
@@ -525,7 +525,7 @@ li .link:hover{
 }
 
 .contact .contact-content{
-  padding-top: 5em;
+  padding-top: 2em;
   font-size: 1.5em;
   /*margin-left: 6vw;*/
   font-family: 'Open Sans', sans-serif;
@@ -536,6 +536,7 @@ li .link:hover{
 .contact .btn-holder{
   width: 100%;
   text-align: center;
+  padding-top: 1.5em;
 }
 
 .contact img{
