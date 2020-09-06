@@ -65,7 +65,7 @@ nav li img{
 }
 
 @media screen and (max-width: 1024px) {
-  ul{
+  nav ul{
     margin: 0 auto;
     padding-inline-start: 0px;
     border: solid 1px rgba(193,193,193,.3);
@@ -130,7 +130,7 @@ li .link:hover{
   width: 100%;
   bottom: 55%;
   right: 13%;
-  font-size: 6.5vw; 
+  font-size: 5.5vw; 
   font-weight: BOLD;
 
 }
@@ -159,10 +159,10 @@ li .link:hover{
   position: absolute;
   width: 100%;
   text-align: center;
-  bottom: 47%;
+  bottom: 49%;
   right: 13%;
   font-family: 'HelveticaNeue-Bold',sans-serif;
-  font-size: 4.5vw; 
+  font-size: 3.8vw; 
   word-spacing: 2vw;
 
 }
@@ -546,13 +546,13 @@ li .link:hover{
 
 @media screen and (max-width: 800px) {
   .contact .contact-content{
-    padding-top: 3.7em;
+    padding-top: 2em;
     margin-left: 6vw;
-    font-size: 1em;
-    padding-bottom: 20em;
+    font-size: 1.3em;
+    padding-bottom: 8em;
   }
   .contact img{
-    width: 5%;
+    width: 20%;
   }
 }  
 
@@ -631,3 +631,11 @@ li .link:hover{
   top: 3.5em;
   font-size: 0.8em;
 }
+
+@media screen and (max-width: 800px) {
+  .contact .icon-holder ul{
+    
+    padding-top: 2.5em;
+  }
+  
+}  
