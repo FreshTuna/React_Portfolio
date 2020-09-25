@@ -45,7 +45,7 @@ body{
 
 nav{
   position: fixed;
-  left:60%;
+  left:65%;
   top:2em;
   z-index: 100;
   -webkit-transition: all 0.5s ease;
@@ -127,12 +127,12 @@ li .link:hover{
   position: absolute;
   font-family: 'HelveticaNeue-Bold',sans-serif;
   text-align: center;
+  word-spacing: 1vw;
   width: 100%;
-  bottom: 55%;
+  bottom: 12%;
   right: 13%;
-  font-size: 5.5vw; 
+  font-size: 4.5vw; 
   font-weight: BOLD;
-
 }
 
 .header .header-mark{
@@ -159,10 +159,10 @@ li .link:hover{
   position: absolute;
   width: 100%;
   text-align: center;
-  bottom: 49%;
+  bottom: 3%;
   right: 13%;
   font-family: 'HelveticaNeue-Bold',sans-serif;
-  font-size: 3.8vw; 
+  font-size: 4.5vw; 
   word-spacing: 2vw;
 
 }

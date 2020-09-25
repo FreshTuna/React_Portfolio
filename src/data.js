@@ -1,9 +1,9 @@
 export default {
-    title:'DEVELOPER',
+    title:'D E V E L O P E R',
     name:'Jang Jun Young',
-    name2:'Jang Jun Young',
+    name2:'JANG JUN YOUNG',
     ShowAboutImage:'true',
-    headerImage:'https://mir-s3-cdn-cf.behance.net/project_modules/1400/bde8e3103770861.5f54900e1e21f.png',
+    headerImage:'https://mir-s3-cdn-cf.behance.net/project_modules/1400/3f50b3104664601.5f686b3cdab69.png',
     headerImage2:'https://mir-s3-cdn-cf.behance.net/project_modules/disp/f1d220103047221.5f44aeaf730d1.png',
     whiteBox:'https://mir-s3-cdn-cf.behance.net/project_modules/disp/b85b7a102087613.5f312c164e8aa.png',
     circleIcon1:'https://img.icons8.com/material-sharp/24/000000/filled-circle.png',
